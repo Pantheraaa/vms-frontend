@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #228896;
+
+    width: 7rem;
+    /* height: 100vh; */
+    height: 93vh;
+    position: absolute;
+    top: 0;
+    padding: 0 15px;
+    padding-top: 1rem;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.menu:hover{
+    color: #a9c52f;
+}
+
+.navbar>a{
+    text-decoration: none;
+
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
